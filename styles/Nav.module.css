@@ -1,0 +1,21 @@
+.nav {
+    height: 7rem;
+    background-color: black!important;
+    color: #fff;
+  }
+
+  .nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+  }
+
+  .nav ul li a {
+    margin: 5px 15px;
+  }
+
+  .Logo {
+    margin-left: 2rem;
+    max-width: 168px;
+  }
