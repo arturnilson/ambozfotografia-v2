@@ -1,4 +1,5 @@
 import Nav from './NavigationBar';
+import Footer from './Footer';
 import Head from 'next/head'
 
 import styles from '../styles/Layout.module.css';
@@ -9,12 +10,15 @@ const Layout = ({ children }) => {
             <Head>
                 <title>Amboz Fotografia</title>
             </Head>
-            <Nav />
-            <div className={styles.container}>
-                <main className={styles.main}>
-                    {children}
-                </main>
-            </div>
+            <header>
+                <Nav />
+            </header>
+            <main className={styles.main}>
+                {children}
+            </main>
+            <footer>
+                <Footer />
+            </footer>
         </>
     )
 }

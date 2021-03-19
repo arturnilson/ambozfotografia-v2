@@ -1,8 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow-x: hidden;
+  background-image: url('/foto1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; 
 }
 
 a {
@@ -23,43 +30,192 @@ a {
   margin-right: 1rem;
   }
 
-/* .container-fluid {
-  width: 60%;
-  margin-right: 5rem;
-  margin-left: 5rem;
-  margin-top: 7rem;   
+.footer {
+  width: 100%;   
+  position: relative;
+  background-color: black!important;
+  text-align: center;
+  padding: 1rem;
+  padding-top: 3rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8rem;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color:rgba(255,255,255,.55);
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.container-fluid {
+    width: 60%;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 7rem;   
 }
 
 .container-full {
-  width: 100%;
-  margin: 4rem;
-  padding-top: 2rem;
-  
-  margin-top: 9rem; 
-  background: radial-gradient(#222121, #131313);
+    width: 100%;
+    margin: 4rem;
+    padding-top: 2rem;
+    
+    margin-top: 9rem; 
+    background: radial-gradient(#222121, #131313);
 
-  border-radius: 2rem;
-  border: 2rem solid rgba(0,0,0,.7);
-  background-clip: padding-box;
-}
-
-.navbar {
-height: 7rem;
-background-color: black!important;
+    border-radius: 2rem;
+    border: 2rem solid rgba(0,0,0,.7);
+    background-clip: padding-box;
 }
 
 .p-home {
-padding: 3rem;
-width: 100%;
-text-align: justify;
-align-items: center;
-color: rgba(255,255,255,.9);
-font-size: large;
+  padding: 3rem;
+  width: 100%;
+  text-align: justify;
+  align-items: center;
+  color: rgba(255,255,255,.9);
+  font-size: large;
 
-background: radial-gradient(#222121, #131313);
-margin-top: 30px;
-margin-bottom: 30px;
-border-radius: 2rem;
-border: 3rem solid rgba(0,0,0,.7);
-background-clip: padding-box;
-} */
+  background: radial-gradient(#222121, #131313);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+  border: 3rem solid rgba(0,0,0,.7);
+  background-clip: padding-box;
+}
+
+h1 {
+  color: rgba(255,255,255,.9);
+}
+
+h1.h1-events {
+  text-align: center !important;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  width: 5%;
+  margin-top: 0px;
+  border: 3;
+  border-top: 5px solid white;
+}
+
+.form-label {
+  text-align: left;
+  color: rgba(255,255,255,.8);
+}
+
+.form {
+  padding: 3rem;
+  width: 100%;
+  color: rgba(255,255,255,.9);
+  background: radial-gradient(#222121, #131313);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+  border: 3rem solid rgba(0,0,0,.7);
+  background-clip: padding-box;
+}
+
+span.drop {
+  font-size: 200%;
+  font-style: italic;
+  color: white;
+}
+
+.clear {
+  clear: both; 
+  height: 100px;
+}
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.error-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+}
+
+.img-grid {
+  background: radial-gradient(#222121, #131313) !important;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  min-height: 100vh;
+  grid-gap: 40px;
+}
+
+.img-wrap {
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  position: relative;
+  opacity: 0.8;
+}
+
+.img-wrap img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.col-image-small {
+  margin: 30px 0;
+}
+
+.col-image-small:hover {
+  opacity: 0.9;
+}
+
+.col-image-small img {
+
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+  }
+
+.image {
+  box-shadow: 3px 5px 7px rgba(0,0,0,.5);
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .Logo {
+    max-width: 105px;
+  }
+
+  .container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;  
+    background-color: rgba(0,0,0,0);
+    margin-top: 50px; 
+  }
+
+  .p-home {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+} 
