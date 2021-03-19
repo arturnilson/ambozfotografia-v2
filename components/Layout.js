@@ -1,4 +1,4 @@
-import Nav from './Nav';
+import Nav from './NavigationBar';
 import Head from 'next/head'
 
 import styles from '../styles/Layout.module.css';
