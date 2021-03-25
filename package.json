@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "emailjs-com": "^2.6.4",
     "materialize-css": "^1.0.0-rc.2",
     "next": "10.0.9",
     "react": "17.0.1",
