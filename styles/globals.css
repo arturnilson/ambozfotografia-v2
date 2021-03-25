@@ -31,30 +31,28 @@ a {
   }
 
 .footer {
-  width: 100%;   
+  width: 100%;
   position: relative;
   background-color: black!important;
   text-align: center;
   padding: 1rem;
-  padding-top: 3rem;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 8rem;
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
+  padding: 1.5rem;
+  font-size: 2rem;
   width: 50px;
-  text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  color:rgba(255,255,255,.55);
+  color:rgba(255,255,255,.5);
+  transition:all .3s ease-in-out;
 }
 
 .fa:hover {
-  opacity: 0.7;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .container-fluid {
