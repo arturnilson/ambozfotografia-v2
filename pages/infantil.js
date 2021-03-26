@@ -97,102 +97,102 @@ const infantil = () => {
             <hr />
             <br />
 
-            <SRLWrapper>
-                <div id="content-page-one" className="content">
-                    <div className="row">
-                        <div className="col-md-4 col-12 col-image-small">
-                            <Image
-                                // className="image"
-                                width={500}
-                                height={500}
-                                src="/infantil01.JPG"
-                                alt="Project number one"
-                            />
-                        </div>
-                        <div className="col-md-6 col-12 col-image-small">
-                            <Image
-                                // className="image"
-                                width={500}
-                                height={500}
-                                src="/infantil02.JPG"
-                                alt="Project number 2"
-                            />
-                        </div>
-                        <div className="col-md-6 col-12 col-image-small">
-                            <Image
-                                // className="image"
-                                width={500}
-                                height={500}
-                                src="/infantil03.JPG"
-                                alt="Project number 3"
-                            />
-                        </div>
-                        <div className="col-md-6 col-12 col-image-small">
-                            <Image
-                                // className="image"
-                                width={500}
-                                height={500}
-                                src="/infantil04.JPG"
-                                alt="Project number 4"
-                            />
-                        </div>
-                        <div className="col-md-6 col-12 col-image-small">
-                            <Image
-                                // className="image"
-                                width={500}
-                                height={500}
-                                src="/infantil05.JPG"
-                                alt="Project number 5"
-                            />
-                        </div>
-                        <div className="col-md-6 col-12 col-image-small">
-                            <Image
-                                // className="image"
-                                width={500}
-                                height={500}
-                                src="/infantil06.JPG"
-                                alt="Project number 6"
-                            />
-                        </div>
-                        <div className="col-md-6 col-12 col-image-small">
-                            <Image
-                                // className="image"
-                                width={500}
-                                height={500}
-                                src="/infantil07.JPG"
-                                alt="Project number 7"
-                            />
-                        </div>
-                        <div className="col-md-6 col-12 col-image-small">
-                            <Image
-                                // className="image"
-                                width={500}
-                                height={500}
-                                src="/infantil08.JPG"
-                                alt="Project number 8"
-                            />
-                        </div>
-                        <div className="col-md-6 col-12 col-image-small">
-                            <Image
-                                // className="image"
-                                width={500}
-                                height={500}
-                                src="/infantil09.JPG"
-                                alt="Project number 9"
-                            />
-                        </div>
-                        <div className="col-md-6 col-12 col-image-small">
-                            <Image
-                                // className="image"
-                                width={500}
-                                height={500}
-                                src="/infantil10.JPG"
-                                alt="Project number one"
-                            />
-                        </div>
+            {/* <SRLWrapper> */}
+            <div id="content-page-one" className="content">
+                <div className="row">
+                    <div className="col-md-4 col-12 col-image-small">
+                        <Image
+                            // className="image"
+                            width={1600}
+                            height={900}
+                            src="/infantil01.JPG"
+                            alt="Project number one"
+                        />
+                        {/* </div> */}
+                        {/* <div className="col-md-6 col-12 col-image-small"> */}
+                        <Image
+                            // className="image"
+                            width={1600}
+                            height={900}
+                            src="/infantil02.JPG"
+                            alt="Project number 2"
+                        />
+                        {/* </div> */}
+                        {/* <div className="col-md-6 col-12 col-image-small"> */}
+                        <Image
+                            // className="image"
+                            width={1600}
+                            height={900}
+                            src="/infantil03.JPG"
+                            alt="Project number 3"
+                        />
+                        {/* </div>
+                        <div className="col-md-6 col-12 col-image-small"> */}
+                        <Image
+                            // className="image"
+                            width={1600}
+                            height={900}
+                            src="/infantil04.JPG"
+                            alt="Project number 4"
+                        />
+                        {/* </div>
+                        <div className="col-md-6 col-12 col-image-small"> */}
+                        <Image
+                            // className="image"
+                            width={1600}
+                            height={900}
+                            src="/infantil05.JPG"
+                            alt="Project number 5"
+                        />
+                        {/* </div>
+                        <div className="col-md-6 col-12 col-image-small"> */}
+                        <Image
+                            // className="image"
+                            width={1600}
+                            height={900}
+                            src="/infantil06.JPG"
+                            alt="Project number 6"
+                        />
+                        {/* </div>
+                        <div className="col-md-6 col-12 col-image-small"> */}
+                        <Image
+                            // className="image"
+                            width={1600}
+                            height={900}
+                            src="/infantil07.JPG"
+                            alt="Project number 7"
+                        />
+                        {/* </div>
+                        <div className="col-md-6 col-12 col-image-small"> */}
+                        <Image
+                            // className="image"
+                            width={1600}
+                            height={900}
+                            src="/infantil08.JPG"
+                            alt="Project number 8"
+                        />
+                        {/* </div>
+                        <div className="col-md-6 col-12 col-image-small"> */}
+                        <Image
+                            // className="image"
+                            width={1600}
+                            height={900}
+                            src="/infantil09.JPG"
+                            alt="Project number 9"
+                        />
+                        {/* </div>
+                        <div className="col-md-6 col-12 col-image-small"> */}
+                        <Image
+                            // className="image"
+                            width={1600}
+                            height={900}
+                            src="/infantil10.JPG"
+                            alt="Project number one"
+                        />
                     </div>
                 </div>
-            </SRLWrapper>
+            </div>
+            {/* </SRLWrapper> */}
 
 
 

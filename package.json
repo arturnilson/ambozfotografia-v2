@@ -11,6 +11,7 @@
     "emailjs-com": "^2.6.4",
     "materialize-css": "^1.0.0-rc.2",
     "next": "10.0.9",
+    "next-images": "^1.7.0",
     "react": "17.0.1",
     "react-bootstrap": "^1.5.2",
     "react-dom": "17.0.1",
