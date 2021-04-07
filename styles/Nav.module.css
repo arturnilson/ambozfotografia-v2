@@ -17,5 +17,6 @@
 
   .Logo {
     margin-left: 2rem;
-    max-width: 168px;
+    /* max-width: 168px; */
+    /* margin-top: 0; */
   }

@@ -9,7 +9,7 @@ export default function Home() {
         <br /><br />
         Há 6 anos no mercado, construímos nossa identidade a partir da espontaneidade dos momentos verdadeiros.
         <br /><br />
-        Somos especializados em registrar eventos, desde festas de aniversários, formaturas, casamentos e, também, eventos corporativos.
+        Somos especializados em registrar eventos, desde festas de aniversário, formaturas, casamentos e, também, eventos corporativos.
         <br /><br />
         Trabalhamos com ensaios fotográficos externos para pessoas e empresas, buscando sempre ressaltar as qualidades dos modelos, sejam profissionais ou momentâneos.
         <br /><br />
