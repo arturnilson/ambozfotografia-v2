@@ -225,15 +225,32 @@ span.drop {
 } */
 
 .image {
-  box-shadow: 3px 5px 7px rgba(0,0,0,.5);
   cursor: pointer;
 }
 
-@media (max-width: 1024px) {
-  .Logo {
-    max-width: 105px;
-  }
+.image:hover {
+	opacity: 1;
+	-webkit-animation: flash 2.5s;
+	animation: flash 2.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
+@media (max-width: 1024px) {
   .container-fluid {
     width: 100%;
     padding-right: 0;
@@ -242,13 +259,6 @@ span.drop {
     margin-left: 0;  
     background-color: rgba(0,0,0,0);
     margin-top: 50px; 
-  }
-
-  .p-home {
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
   }
 
 } 

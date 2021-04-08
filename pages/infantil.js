@@ -4,72 +4,64 @@ import Image from "next/image";
 const projects = [
     {
         id: 1,
-        photo: "/infantil01.JPG",
+        photo: "/infantil/infantil01.JPG",
         text: "Foto Infantil 1",
         width: 6000,
         height: 4000
     },
     {
         id: 2,
-        photo: "/infantil02.JPG",
-        text: "Foto Infantil 3",
+        photo: "/infantil/infantil02.JPG",
+        text: "Foto Infantil 2",
         width: 6000,
         height: 4000
     },
     {
         id: 3,
-        photo: "/infantil03.JPG",
+        photo: "/infantil/infantil03.JPG",
         text: "Foto Infantil 3",
         width: 6000,
         height: 4000
     },
-
     {
-        id: 8,
-        photo: "/infantil08.JPG",
-        text: "Foto Infantil 8",
-        width: 3961,
-        height: 5941,
-    },
-    {
-        id: 9,
-        photo: "/infantil09.JPG",
-        text: "Foto Infantil 9",
+        id: 4,
+        photo: "/infantil/infantil04.JPG",
+        text: "Foto Infantil 4",
         width: 3961,
         height: 5941,
     },
     {
         id: 5,
-        photo: "/infantil05.JPG",
+        photo: "/infantil/infantil05.JPG",
         text: "Foto Infantil 5",
         width: 3961,
         height: 5941,
     },
     {
-        id: 4,
-        photo: "/infantil04.JPG",
-        text: "Foto Infantil 4",
-        width: 6000,
-        height: 4000
-    },
-    {
         id: 6,
-        photo: "/infantil06.JPG",
+        photo: "/infantil/infantil06.JPG",
         text: "Foto Infantil 6",
-        width: 6000,
-        height: 4000
+        width: 3961,
+        height: 5941,
     },
     {
         id: 7,
-        photo: "/infantil07.JPG",
+        photo: "/infantil/infantil07.JPG",
         text: "Foto Infantil 7",
         width: 6000,
         height: 4000
     },
     {
-        id: 10,
-        photo: "/infantil10.JPG",
+        id: 8,
+        photo: "/infantil/infantil08.JPG",
         text: "Foto Infantil 8",
+        width: 6000,
+        height: 4000
+    },
+    {
+        id: 9,
+        photo: "/infantil/infantil09.JPG",
+        text: "Foto Infantil 9",
         width: 6000,
         height: 4000
     }
@@ -120,7 +112,7 @@ const infantil = () => {
                                         alt={img.text}
                                         className="image"
                                         layout="responsive"
-                                        quality={35}
+                                        quality={10}
                                         width={6000}
                                         height={4000}
                                     />
@@ -131,7 +123,7 @@ const infantil = () => {
                                         alt={img.text}
                                         className="image"
                                         layout="responsive"
-                                        quality={35}
+                                        quality={10}
                                         width={3961}
                                         height={5941}
                                     />}

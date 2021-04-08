@@ -31,22 +31,22 @@ const contato = () => {
                 <br />
 
                 <div className="form-group">
-                    <label for="name" className="form-label">Nome *</label>
+                    <label htmlFor="name" className="form-label">Nome *</label>
                     <input type="text" className="form-control" name="name" id="name" placeholder="Nome completo" required />
                 </div>
                 <br />
                 <div className="form-group">
-                    <label for="email" className="form-label">E-mail *</label>
+                    <label htmlFor="email" className="form-label">E-mail *</label>
                     <input type="text" className="form-control" name="email" id="email" placeholder="E-mail para contato" required />
                 </div>
                 <br />
                 <div className="form-group">
-                    <label for="fone" className="form-label">Telefone *</label>
-                    <input type="text" className="form-control" name="fone" id="fone" maxlength="14" placeholder="(XX) XXXXXXXXX" required />
+                    <label htmlFor="fone" className="form-label">Telefone *</label>
+                    <input type="text" className="form-control" name="fone" id="fone" maxLength="14" placeholder="(XX) XXXXXXXXX" required />
                 </div>
                 <br />
                 <div className="form-group">
-                    <label for="message" className="form-label">Mensagem *</label>
+                    <label htmlFor="message" className="form-label">Mensagem *</label>
                     <textarea type="text" className="form-control" name="message" id="message" placeholder="Mensagem" rows="3" required />
                 </div>
 

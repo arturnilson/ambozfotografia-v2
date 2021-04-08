@@ -4,64 +4,64 @@ import Image from "next/image";
 const projects = [
     {
         id: 1,
-        photo: "/formatura/formatura01.JPG",
-        text: "Foto Formatura 1",
+        photo: "/quinze_anos/quinze01.JPG",
+        text: "Foto 15 anos - 1",
         width: 6000,
         height: 4000
     },
     {
         id: 2,
-        photo: "/formatura/formatura02.JPG",
-        text: "Foto Formatura 2",
+        photo: "/quinze_anos/quinze02.JPG",
+        text: "Foto 15 anos - 2",
         width: 6000,
         height: 4000
     },
     {
         id: 3,
-        photo: "/formatura/formatura03.JPG",
-        text: "Foto Formatura 3",
+        photo: "/quinze_anos/quinze03.JPG",
+        text: "Foto 15 anos - 3",
         width: 6000,
         height: 4000
     },
     {
         id: 4,
-        photo: "/formatura/formatura04.JPG",
-        text: "Foto Formatura 4",
+        photo: "/quinze_anos/quinze04.JPG",
+        text: "Foto 15 anos - 4",
         width: 3961,
         height: 5941,
     },
     {
         id: 5,
-        photo: "/formatura/formatura05.JPG",
-        text: "Foto Formatura 5",
+        photo: "/quinze_anos/quinze05.JPG",
+        text: "Foto 15 anos - 5",
         width: 3961,
         height: 5941,
     },
     {
         id: 6,
-        photo: "/formatura/formatura06.JPG",
-        text: "Foto Formatura 6",
+        photo: "/quinze_anos/quinze06.JPG",
+        text: "Foto 15 anos - 6",
         width: 3961,
         height: 5941,
     },
     {
         id: 7,
-        photo: "/formatura/formatura07.JPG",
-        text: "Foto Formatura 7",
+        photo: "/quinze_anos/quinze07.JPG",
+        text: "Foto 15 anos - 7",
         width: 6000,
         height: 4000
     },
     {
         id: 8,
-        photo: "/formatura/formatura08.JPG",
-        text: "Foto Formatura 8",
+        photo: "/quinze_anos/quinze08.JPG",
+        text: "Foto 15 anos - 8",
         width: 6000,
         height: 4000
     },
     {
         id: 9,
-        photo: "/formatura/formatura09.JPG",
-        text: "Foto Formatura 9",
+        photo: "/quinze_anos/quinze09.JPG",
+        text: "Foto 15 anos - 9",
         width: 6000,
         height: 4000
     }
@@ -94,10 +94,10 @@ const options = {
     }
 }
 
-const formatura = () => {
+const quinze_anos = () => {
     return (
         <div className="container-full container-fluid">
-            <h1 className="h1-events">Formatura</h1>
+            <h1 className="h1-events">15 anos</h1>
             <br />
             <SRLWrapper options={options}>
                 <div id="content-page-one" className="content">
@@ -136,4 +136,4 @@ const formatura = () => {
     )
 }
 
-export default formatura;
+export default quinze_anos;

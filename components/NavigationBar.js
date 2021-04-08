@@ -1,33 +1,19 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import navStyles from '../styles/Nav.module.css';
-import { Nav, Navbar, Image } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 
 
 const NavigationBar = () => {
     return (
         <Navbar expand="lg" fixed="top" bg="black" variant="dark">
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="/" className={navStyles.Logo}>
                 <Image
-                    className={navStyles.Logo}
                     src='/logo.jpg'
                     alt="Logo Amboz Fotografia"
-                    width={168}
-                    // fluid
-                    // fixed={true}
-                    layout="fill"
-                    objectFit="contain"
+                    width={171}
+                    height={85}
                 />
-                {/* <Image
-                    alt="Logo Amboz Fotografia"
-                    src="/logo.jpg"
-                    // layout="fill"
-                    // objectFit="contain"
-
-                    layout="responsive"
-                    width={168}
-                    height={100}
-                /> */}
-
             </Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse>
             <Nav className="ml-auto">
@@ -42,7 +28,7 @@ const NavigationBar = () => {
                     </Link>
                 </Nav.Item>
                 <Nav.Item className="nav-item">
-                    <Link href="/quinzeanos" passHref>
+                    <Link href="/quinze_anos" passHref>
                         <Nav.Link>15 anos</Nav.Link>
                     </Link>
                 </Nav.Item>
