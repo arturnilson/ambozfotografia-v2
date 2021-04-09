@@ -15,6 +15,9 @@ const NavigationBar = () => {
                     height={85}
                 />
             </Navbar.Brand>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse>
             <Nav className="ml-auto">
                 <Nav.Item className="nav-item">
